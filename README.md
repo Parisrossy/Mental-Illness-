@@ -1,2 +1,2 @@
-# Mental-Illness-
+# Mental-Illness
 Mental Illness ChatBot
