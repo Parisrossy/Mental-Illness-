@@ -10,9 +10,9 @@ warnings.filterwarnings('ignore')
 lemmatizer = nltk.stem.WordNetLemmatizer()
 
 # Download required NLTK data
-# nltk.download('stopwords')
-# nltk.download('punkt')
-# nltk.download('wordnet')
+nltk.download('stopwords')
+nltk.download('punkt')
+nltk.download('wordnet')
 
 data = pd.read_csv('Mental_Health_FAQ.csv')
 data.drop('Question_ID', axis = 1, inplace = True)
